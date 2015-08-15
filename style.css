@@ -1,0 +1,122 @@
+img.top {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+img.bottom {
+	filter: gray; /* IE6-9 */
+	filter: grayscale(1); /* Firefox 35+ */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+::selection { background: transparent;color:inherit; }
+::-moz-selection { background: transparent;color:inherit; }
+
+body{
+margin: 0;
+padding: 0
+}
+
+div.absCenterMain
+{
+  position: absolute;
+  min-width: 720px;
+  top: 141px;
+  border-radius: 0px 30px 30px 30px;
+  width: 100%;
+  z-index: 9;
+}
+
+div.navBody
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  min-width: 720px;
+  border-radius: 0px 30px 30px 30px;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(51,51,51, 0.94);
+}
+
+div.absCenterNav
+{
+  top: 100px;
+  min-width: 720px;
+  position: absolute;
+  border-radius: 0px 30px 30px 30px;
+  width: 100%;
+  z-index: 10;
+}
+
+div.relCenterMain
+{
+  min-width: 720px;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px 30px 30px 30px;
+  width: 60%;
+  z-index: 9;
+}
+
+div.relCenterNav
+{
+  border-radius: 30px 30px 0px 0px;
+  min-width: 720px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  z-index: 10;
+}
+
+div.Nav
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  border-radius: 30px 30px 0px 0px;
+  min-width: 400px;
+  position: relative;
+  width: 50%;
+  height: 27px;
+  z-index: 10;
+  background-color: rgba(51,51,51, 0.94);
+  border-bottom: solid rgba(255,217,0, 1);
+  border-width: 2px;
+}
+
+font.text
+{
+  font-size: 18px;
+  color: rgba(239,239,239, 1);
+}
+
+a.navLink
+{
+    font-size: 18px;
+	color: rgba(239,239,239, 1);
+	text-decoration: none;
+}
+
+a.navLink:hover
+{
+	color: rgba(0,204,214, 1);
+}
+
+/*html { overflow-x: hidden; }*/
+
